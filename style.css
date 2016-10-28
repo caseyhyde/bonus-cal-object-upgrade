@@ -1,0 +1,33 @@
+table {
+  border: solid 2px gray;
+  font-family: "Helvetica Neue";
+  border-collapse: collapse;
+}
+
+thead {
+
+  background-color: lightgray;
+}
+
+thead th {
+  border-bottom: solid 2px gray;
+}
+
+thead th:nth-child(even) {
+  background-color: #eee;
+}
+
+thead th:last-of-type {
+  border-color: gray;
+}
+
+td {
+  border: solid 2px gray;
+  border-width: 0 2px 2px 0;
+  text-align: center;
+  padding: 4px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
